@@ -1,0 +1,12 @@
+name: Cloudformation Merger
+description: A GitHub Action to merge multiple Cloudformation template files into one.
+inputs:
+  folder:
+    description: "folder containing CloudFormation templates"
+    required: true
+  output-file:
+    description: "Filename of combined output"
+    required: true
+runs:
+  using: "node12"
+  main: "index.js"

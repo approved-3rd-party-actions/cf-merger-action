@@ -1,0 +1,27 @@
+{
+    "name": "cf-merger-action",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "@actions/core": "^1.2.4",
+        "@actions/exec": "^1.0.4",
+        "@actions/github": "^2.2.0",
+        "cloudformation-yml-merger": "chikin-4x/cloudformation-yml-merger#master"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mmcenti/cf-merger-action.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mmcenti/cf-merger-action/issues"
+    },
+    "homepage": "https://github.com/mmcenti/cf-merger-action#readme"
+}
